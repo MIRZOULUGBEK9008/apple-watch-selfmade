@@ -52,7 +52,7 @@ img {
 
 
 /* SITE-HEADER  */
-header {
+.header-bottom {
   border-bottom: 2px solid #ddd;
 }
 
@@ -129,14 +129,23 @@ header {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
 
-.header-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.container-two {
+  width: 1310px;
+  max-width: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(../img/watch.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .header-content {
-  width: 490px;
+  padding-top: 91px;
+  padding-bottom: 183px;
+  padding-left: 125px;
 }
 
 .header-heading {
@@ -149,6 +158,7 @@ header {
 }
 
 .header-paragraph {
+  width: 490px;
   padding-left: 40px;
   margin-bottom: 30px;
   border-left: 3px solid #888;
@@ -172,11 +182,6 @@ header {
 
 .main-button:active {
   opacity: 0.6;
-}
-
-.header-img {
-  width: 390px;
-  height: 565px;
 }
 
 
@@ -315,7 +320,7 @@ header {
 }
 
 .footer-button:focus {
-outline-color: #fff;
+  outline-color: #fff;
 }
 
 /* SITE-FOOTER-BG-(RETINA)  */
