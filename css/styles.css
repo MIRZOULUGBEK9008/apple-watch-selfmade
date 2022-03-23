@@ -148,6 +148,10 @@ img {
   padding-left: 125px;
 }
 
+.header-content-two {
+  padding: 0;
+}
+
 .header-heading {
   margin: 0;
   margin-bottom: 30px;
