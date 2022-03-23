@@ -341,4 +341,8 @@ only screen and (                min-resolution: 2dppx) {
   .site-footer {
     background-image: url(../img/footer-bg@2x.jpg);
   }
+
+  .container-two {
+    background-image: url(../img/watch@2x.png);
+  }
 }
