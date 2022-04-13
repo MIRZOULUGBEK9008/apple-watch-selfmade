@@ -181,6 +181,7 @@ img {
 }
 
 .header-paragraph {
+  margin-top: 0;
   width: 490px;
   padding-left: 40px;
   margin-bottom: 30px;
@@ -188,7 +189,10 @@ img {
 }
 
 .main-button {
-  padding: 12px  38.5px;
+  display: inline-block;
+  min-width: 260px;
+  padding: 12px;
+  text-align: center;
   background-color: #EA625C;
   color: #fff;
   text-decoration: none;
@@ -233,6 +237,7 @@ img {
 }
 
 .hero-one-paragraph {
+  margin-top: 0;
   margin-bottom: 20px;
   color: #333;
   font-size: 15px;
@@ -270,10 +275,16 @@ img {
 }
 
 .hero-one-hr {
+  margin: 0;
   border: none;
   width: 40px;
   height: 3px;
   background-color: #EA625C;
+  transition: width 0.3s ease;
+}
+
+.hero-one-hr:hover {
+  width: 60px;
 }
 
 .learn-more-link {
@@ -333,6 +344,7 @@ img {
 }
 
 .footer-paragraph {
+  margin-top: 0;
   margin-bottom: 30px;
   padding-left: 40px;
   border-left: 3px solid #fff;
@@ -352,6 +364,7 @@ img {
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media
